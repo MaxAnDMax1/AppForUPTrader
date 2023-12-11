@@ -1,0 +1,4 @@
+{% for item in items %}
+    <ul><li><a href="{% url 'menu_app:draw_menu' name=item.url %}">{{item.name }}</a></ul></li>
+{% endfor %}
+
